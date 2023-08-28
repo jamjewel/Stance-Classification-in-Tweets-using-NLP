@@ -1,2 +1,4 @@
-# DeepLearningProject
+# Stance classification - DeepLearningProject
 Stance classification is a subcategory of opinion mining, where the task is to automatically determine whether the author of a piece of text is in favour or against a given target. Automatically detecting stance has widespread applications in information retrieval, text summarization, and textual entailment.
+
+This project was undertaken to do stance classification of tweet and discovering the best fitting deep learning model that can successfully classify stance (FAVOR, AGAINST, NONE) based on particular Target (topic) about a tweet.Final selection was made of LSTM model as they proved to work best in natural language processing scenario. Analysing intra variability of classes and imbalancing of data, efforts were taken to choose a balanced data set for training purpose. glove MODEL trained on wikipedia data was used .The data was transformed to task vocabulary to fit the model. The model after large iterations of fine tuning made it robust and provided an accuracy score on validation as 52.97 and test score as 53.8 respectively.
